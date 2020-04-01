@@ -9,7 +9,7 @@ const styles = {
     width: "90%"
   },
   barRoot: {
-    height: "10vh",
+    height: "7vh",
     borderRadius: "2vh"
   }
 };

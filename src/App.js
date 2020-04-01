@@ -16,21 +16,26 @@ const styles = () => ({
     color: "#ffffff",
     fontWeight: "bold",
     marginBottom: "10vh",
-    textDecoration: "underline"
+    textDecoration: "underline",
+    fontSize: "5vh",
+    textAlign: "center",
+    whiteSpace: "unset"
   },
   subHeading: {
     color: "#ffffff",
     fontWeight: 500,
-    marginBottom: "1vh"
+    marginBottom: "1vh",
+    fontSize: "3vh"
   },
   paperRoot: {
     backgroundColor: "#d3062b",
     padding: "5vh 7vh",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "space-around",
-    width: "90%",
-    marginBottom: "10vh"
+    justifyContent: "space-between",
+    width: "70%",
+    marginBottom: "10vh",
+    minWidth: "30vh"
   },
   paperRootTwo : {
     backgroundColor: "#d3062b",
@@ -39,7 +44,8 @@ const styles = () => ({
     flexDirection: "row",
     justifyContent: "space-around",
     width: "15%",
-    marginBottom: "10vh"
+    marginBottom: "10vh",
+    minWidth: "15vh"
   },
   countdownTime : {
     display: "flex",
@@ -49,6 +55,8 @@ const styles = () => ({
   countdownTimeVal: {
     color: "#ffffff",
     fontWeight: 900,
+    fontSize: "3vh",
+    textAlign: "center"
   }
 });
 
@@ -97,55 +105,55 @@ class App extends React.Component {
 
     return (
       <div className={classes.app}>
-        <Typography variant="h1" component="h2" className={classes.heading}>
+        <Typography className={classes.heading}>
           INDIA LOCKDOWN TIMER
         </Typography>
 
-        <Typography variant="h4" className={classes.subHeading}>
+        <Typography className={classes.subHeading}>
           Lockdown will be over in ...
         </Typography>
 
         <Paper elevation={3} className={classes.paperRoot}>
           <div className={classes.countdownTime}>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               {day}
             </Typography>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               days
             </Typography>
           </div>
           <div className={classes.countdownTime}>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               {hour}
             </Typography>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               hrs
             </Typography>
           </div>
           <div className={classes.countdownTime}>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               {minute}
             </Typography>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               mins
             </Typography>
           </div>
           <div className={classes.countdownTime}>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               {second}
             </Typography>
-            <Typography variant="h3" className={classes.countdownTimeVal}>
+            <Typography className={classes.countdownTimeVal}>
               secs
             </Typography>
           </div>
         </Paper>
 
-        <Typography variant="h4" className={classes.subHeading}>
+        <Typography className={classes.subHeading}>
           Percentage completed ...
         </Typography>
 
         <Paper elevation={3} className={classes.paperRootTwo}>
-          <Typography variant="h3" className={classes.countdownTimeVal}>
+          <Typography className={classes.countdownTimeVal}>
             {percentage_complete && percentage_complete + " %"}
           </Typography>
         </Paper>
