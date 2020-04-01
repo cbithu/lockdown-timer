@@ -4,13 +4,16 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 import ProgressBar from './components/ProgressBar';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const styles = () => ({
   app: {
     display: "flex",
     alignItems: "center",
     flexDirection: "column",
-    flexGrow: 1
+    flexGrow: 1,
+    justifyContent: "space-around",
+    height: "100vh"
   },
   heading: {
     color: "#ffffff",
@@ -57,6 +60,14 @@ const styles = () => ({
     fontWeight: 900,
     fontSize: "3vh",
     textAlign: "center"
+  },
+  footer: {
+    fontSize: "2vh",
+    fontWeight: 500,
+    color: "#ffffff",
+    textAlign: "center",
+    borderTop: "1px solid #ffffff",
+    width: "100%"
   }
 });
 
@@ -159,6 +170,8 @@ class App extends React.Component {
         </Paper>
 
         <ProgressBar percentage={percentage_complete} />
+
+        <Typography className={classes.footer}>Built with <FavoriteIcon style={{ color: "#d3062b" }}/> by Chinmay Bithu</Typography>
       </div>
     );
   }
