@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lockdown-timer/static/css/main.826741da.chunk.css",
-    "main.js": "/lockdown-timer/static/js/main.f92145de.chunk.js",
-    "main.js.map": "/lockdown-timer/static/js/main.f92145de.chunk.js.map",
+    "main.js": "/lockdown-timer/static/js/main.f563b31d.chunk.js",
+    "main.js.map": "/lockdown-timer/static/js/main.f563b31d.chunk.js.map",
     "runtime-main.js": "/lockdown-timer/static/js/runtime-main.78dbd4d6.js",
     "runtime-main.js.map": "/lockdown-timer/static/js/runtime-main.78dbd4d6.js.map",
     "static/js/2.d1ea0f37.chunk.js": "/lockdown-timer/static/js/2.d1ea0f37.chunk.js",
     "static/js/2.d1ea0f37.chunk.js.map": "/lockdown-timer/static/js/2.d1ea0f37.chunk.js.map",
     "index.html": "/lockdown-timer/index.html",
-    "precache-manifest.17a230ebc9c5a7acfbf91db89b8ece69.js": "/lockdown-timer/precache-manifest.17a230ebc9c5a7acfbf91db89b8ece69.js",
+    "precache-manifest.80efe32f2fdcffb63800b6fedf90c2cb.js": "/lockdown-timer/precache-manifest.80efe32f2fdcffb63800b6fedf90c2cb.js",
     "service-worker.js": "/lockdown-timer/service-worker.js",
     "static/css/main.826741da.chunk.css.map": "/lockdown-timer/static/css/main.826741da.chunk.css.map",
     "static/js/2.d1ea0f37.chunk.js.LICENSE.txt": "/lockdown-timer/static/js/2.d1ea0f37.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.78dbd4d6.js",
     "static/js/2.d1ea0f37.chunk.js",
     "static/css/main.826741da.chunk.css",
-    "static/js/main.f92145de.chunk.js"
+    "static/js/main.f563b31d.chunk.js"
   ]
 }
