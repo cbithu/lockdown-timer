@@ -63,7 +63,6 @@ const styles = () => ({
   },
   footer: {
     fontSize: "2vh",
-    fontWeight: 500,
     color: "#ffffff",
     textAlign: "center",
     borderTop: "1px solid #ffffff",
@@ -171,7 +170,7 @@ class App extends React.Component {
 
         <ProgressBar percentage={percentage_complete} />
 
-        <Typography className={classes.footer}>Built with <FavoriteIcon style={{ color: "#d3062b" }}/> by Chinmay Bithu</Typography>
+        <Typography className={classes.footer}>Built with <FavoriteIcon style={{ color: "#d3062b" }} fontSize="small"/> by Chinmay Bithu</Typography>
       </div>
     );
   }
