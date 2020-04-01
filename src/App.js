@@ -146,7 +146,7 @@ class App extends React.Component {
 
         <Paper elevation={3} className={classes.paperRootTwo}>
           <Typography variant="h3" className={classes.countdownTimeVal}>
-            {percentage_complete + " %"}
+            {percentage_complete && percentage_complete + " %"}
           </Typography>
         </Paper>
 
