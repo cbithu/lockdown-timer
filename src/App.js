@@ -37,7 +37,8 @@ const styles = () => ({
     justifyContent: "space-between",
     width: "70%",
     marginBottom: "7vh",
-    minWidth: "30vh"
+    minWidth: "30vh",
+    height: "8vh"
   },
   paperRootTwo : {
     backgroundColor: "#d3062b",
@@ -47,7 +48,8 @@ const styles = () => ({
     justifyContent: "space-around",
     width: "15%",
     marginBottom: "7vh",
-    minWidth: "15vh"
+    minWidth: "15vh",
+    height: "4.42vh"
   },
   countdownTime : {
     display: "flex",
@@ -71,11 +73,11 @@ const styles = () => ({
 
 class App extends React.Component {
   state = {
-    day: null,
-    hour: null,
-    minute: null,
-    second: null,
-    percentage_complete: null
+    day: "--",
+    hour: "--",
+    minute: "--",
+    second: "--",
+    percentage_complete: ""
   }
 
   componentDidMount() {
