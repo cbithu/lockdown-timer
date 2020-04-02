@@ -19,7 +19,7 @@ const styles = () => ({
     fontWeight: "bold",
     marginBottom: "5vh",
     textDecoration: "underline",
-    fontSize: "7vh",
+    fontSize: "6vh",
     textAlign: "center",
     whiteSpace: "unset"
   },
