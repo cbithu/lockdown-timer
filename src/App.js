@@ -12,15 +12,14 @@ const styles = () => ({
     alignItems: "center",
     flexDirection: "column",
     flexGrow: 1,
-    justifyContent: "space-around",
-    height: "100vh"
+    justifyContent: "space-around"
   },
   heading: {
     color: "#ffffff",
     fontWeight: "bold",
-    marginBottom: "10vh",
+    marginBottom: "5vh",
     textDecoration: "underline",
-    fontSize: "5vh",
+    fontSize: "7vh",
     textAlign: "center",
     whiteSpace: "unset"
   },
@@ -37,7 +36,7 @@ const styles = () => ({
     flexDirection: "row",
     justifyContent: "space-between",
     width: "70%",
-    marginBottom: "10vh",
+    marginBottom: "7vh",
     minWidth: "30vh"
   },
   paperRootTwo : {
@@ -47,7 +46,7 @@ const styles = () => ({
     flexDirection: "row",
     justifyContent: "space-around",
     width: "15%",
-    marginBottom: "10vh",
+    marginBottom: "7vh",
     minWidth: "15vh"
   },
   countdownTime : {
