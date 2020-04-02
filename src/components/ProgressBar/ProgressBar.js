@@ -7,7 +7,7 @@ const styles = {
   root: {
     flexGrow: 1,
     width: "90%",
-    marginBottom: "2vh"
+    marginBottom: "4vh"
   },
   barRoot: {
     height: "7vh",
