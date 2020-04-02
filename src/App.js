@@ -13,7 +13,7 @@ const styles = () => ({
     flexDirection: "column",
     flexGrow: 1,
     justifyContent: "space-around",
-    height: "95vh"
+    height: "100vh"
   },
   heading: {
     color: "#ffffff",
