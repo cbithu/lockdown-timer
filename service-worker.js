@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lockdown-timer/precache-manifest.427ebc74ea9b989f65f0d7db2e573536.js"
+  "/lockdown-timer/precache-manifest.9487f46b9dc5e6a5f130a750179eeaad.js"
 );
 
 self.addEventListener('message', (event) => {
