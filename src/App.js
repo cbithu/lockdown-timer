@@ -121,7 +121,7 @@ class App extends React.Component {
         </Typography>
 
         <Typography className={classes.subHeading}>
-          Lockdown will be over in ...
+          Lockdown will be over in
         </Typography>
 
         <Paper elevation={3} className={classes.paperRoot}>
@@ -160,7 +160,7 @@ class App extends React.Component {
         </Paper>
 
         <Typography className={classes.subHeading}>
-          Percentage completed ...
+          Percentage completed
         </Typography>
 
         <Paper elevation={3} className={classes.paperRootTwo}>
@@ -171,7 +171,7 @@ class App extends React.Component {
 
         <ProgressBar percentage={percentage_complete} />
 
-        <Typography className={classes.footer}>Built with <FavoriteIcon style={{ color: "#d3062b" }} fontSize="small"/> by Chinmay Bithu</Typography>
+        <Typography className={classes.footer}>2020 © Crafted with <FavoriteIcon style={{ color: "#d3062b" }} fontSize="small"/> by Chinmay Bithu</Typography>
       </div>
     );
   }
