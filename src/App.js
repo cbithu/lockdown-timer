@@ -83,7 +83,7 @@ class App extends React.Component {
   componentDidMount() {
     setInterval(() => {
       let date_start = 1584988200000;
-      let date_future = 1588530599000;
+      let date_future = 1589740199000;
       let date_now = Date.now();
       let percentage_complete = (((date_now - date_start) / (date_future - date_start)) * 100).toFixed(4);
 
